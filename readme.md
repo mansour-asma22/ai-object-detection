@@ -58,7 +58,7 @@ The webcam version also allows the processed video to be automatically saved and
 
 ##  What It Detects
 
-YOLOv8 can detect more than 80 object classes, including:
+YOLOv8 can detect  80 object classes, including:
 
 | Category           | Examples                                |
 | ------------------ | --------------------------------------- |
@@ -91,49 +91,6 @@ ai-object-detection/
 ├── README.md
 └── .gitignore
 ```
-
-##  Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/mansour-asma22/ai-object-detection.git
-cd ai-object-detection
-```
-
-### 2. Create a virtual environment
-
-```bash
-python -m venv venv
-```
-
-Activate it on Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-##  Usage
-
-###  Video Detection
-
-Place your `.mp4` video in the project folder and configure the filename in `object_detection.py`.
-```bash
-python object_detection.py
-```
-### Real-Time Webcam Detection
-Run:
-```bash
-python camera_detection.py
-```
-
-The webcam will open automatically and YOLOv8 will start detecting objects in real time.
 
 ###  Controls
 
