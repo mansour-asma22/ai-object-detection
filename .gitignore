@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+*.pyc
+camera_output.mp4
+screenshot_*.png
