@@ -97,7 +97,7 @@ ai-object-detection/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-object-detection.git
+git clone https://github.com/mansour-asma22/ai-object-detection.git
 cd ai-object-detection
 ```
 
@@ -119,26 +119,16 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## ▶️ Usage
+##  Usage
 
 ###  Video Detection
 
-Place your `.mp4` video in the project folder and configure the video filename in:
-
-```text
-object_detection.py
-```
-
-Then run:
-
+Place your `.mp4` video in the project folder and configure the filename in `object_detection.py`.
 ```bash
 python object_detection.py
 ```
-
-###  Real-Time Webcam Detection
-
+### Real-Time Webcam Detection
 Run:
-
 ```bash
 python camera_detection.py
 ```
@@ -171,16 +161,5 @@ This project allowed me to work on:
 * Saving processed video and screenshots
 * Handling camera and application shutdown correctly
 
-##  Possible Improvements
-
-Future improvements could include:
-
-* Configurable confidence threshold
-* Object tracking
-* Mobile camera streaming
-* Performance optimization
-* Web interface
-* Dockerization
-* Deployment
 
 
