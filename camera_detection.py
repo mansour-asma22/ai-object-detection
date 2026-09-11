@@ -24,6 +24,10 @@ print(" Model loaded successfully!")
 
 cap = cv2.VideoCapture(0)
 
+# Set camera resolution
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
+
 if not cap.isOpened():
     print(" Error: Could not open video file.")
     print(" Make sure the file exists and is named correctly.")
@@ -155,6 +159,10 @@ print("\n🎬 Processing... Press 'q' to quit, 's' for screenshot\n")
 
 frame_count = 0
 prev_time = time.time() # Memoriser l'heure à laquelle on commence à mesurer
+
+cv2.namedWindow("AI Street Detection", cv2.WINDOW_NORMAL)
+cv2.resizeWindow("AI Street Detection", 1000, 500)
+
 
 while cap.isOpened():
     success, frame = cap.read()
