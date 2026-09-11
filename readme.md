@@ -77,9 +77,8 @@ YOLOv8 can detect more than 80 object classes, including:
 * **OpenCV** — Video processing and visualization
 * **NumPy** — Numerical operations
 
-##  Modèle 
+##  Model 
 This project uses YOLOv8n, a lightweight object detection model pre-trained on the COCO dataset.
-
 ##  Project Structure
 
 ```text
